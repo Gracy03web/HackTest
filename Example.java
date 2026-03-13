@@ -4,7 +4,11 @@ public class Example {
 
     }
     public int factorial(int x){
-        return x*x;
+        int fact=1;
+        for(int i= 0;i<x;i++){
+            fact =fact*i;
+        }
+        return fact;
     }
 }
 
